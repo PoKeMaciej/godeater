@@ -1,0 +1,29 @@
+<!--Dodać do HEAD strony-->
+
+<script src="https://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script>
+<script src="jquery.localscroll.js" type="text/javascript" charset="utf-8"></script>
+
+<!--Dodać do BODY strony-->
+
+<script src="js/jquery.js"></script>
+    <script src="js/stickyfill.js"></script>
+    <script>
+        $('.nav').Stickyfill();
+        $(function() {
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').stop().animate({
+                            scrollTop: target.offset().top - 70
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+	
+	<script data-style="transparent" data-position="rb" data-size="41" data-arrowtype="ar2" data-bgcolor="rgb(69,28,37)" data-transparency="0.9" src="js/arrow.js"></script>

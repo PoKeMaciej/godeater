@@ -1,0 +1,6 @@
+Szukaj nas w mediach społecznościowych:<br><br>
+	<a onMouseOver="z1.src='grafika/facebook.png' " onMouseOut="z1.src='grafika/facebook1.png' " href="http://facebook.com" target="_blank" ><img src="grafika/facebook1.png" name="z1"></a> 
+	
+	<a onMouseOver="z2.src='grafika/google.png' " onMouseOut="z2.src='grafika/google1.png' " href="http://google.com" target="_blank"><img src="grafika/google1.png" name="z2"></a> 
+	
+	<a onMouseOver="z3.src='grafika/whatsapp.png' " onMouseOut="z3.src='grafika/whatsapp1.png' "href="http://whatsapp.com" target="_blank"><img src="grafika/whatsapp1.png" name="z3"></a></p>

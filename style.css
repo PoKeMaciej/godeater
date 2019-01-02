@@ -1,0 +1,136 @@
+* {
+	margin:0;
+	top:0;
+}
+body {
+		background-image: url(grafika/tlo.jpg);
+}
+.naglowek {
+	width:100%;
+	height:100px;
+	background-color:#123456;
+	position:sticky;
+	line-height:100px;
+	text-align:center;
+	font-weight:bold;
+}
+	.naglowek a {
+		text-decoration:none;
+		color:#FFFFFF;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+	}
+	.naglowek a:hover {
+		font-size:1.1em;
+		color:red;
+	}
+	.naglowek li {
+		list-style-type:none;
+		display:inline;
+		padding:15px;
+		font-size:1.8em;
+		font-family: 'Special Elite', cursive;
+		color:#BDBDBD;
+	}
+.film {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+	.film iframe {
+		border:5px solid white;
+		border-radius: 8px;
+	}
+.tabela {
+	margin:2%;
+}
+	.tabela table {
+		background-color:black;
+		border:5px solid white;
+		text-align:center;
+		color:white;
+		font-size:1.2em;
+		border-radius: 8px;
+		font-family: 'Josefin Sans', sans-serif;
+		padding:10px;
+	}
+section {
+	padding-left:4%;
+	padding-right:4%;
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#654321;
+}
+	section h1 {
+	padding-left:100px;
+	padding-right:100px;
+	margin-bottom:1%;
+	margin-top:1%;
+	font-family: 'Special Elite', cursive;
+	font-size:2em;
+	color:#BDBDBD;
+	}
+	section a {
+		color:#BDBDBD;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+	}
+	section a:hover {
+		color:red;
+	}
+article {
+	
+}
+	article p {
+		line-height:1.5em;
+		font-size:1.2em;
+		font-family: 'Josefin Sans', sans-serif;
+		margin-bottom:1%;
+		color:white
+	}
+.stopka {
+	width:100%;
+	height:80px;
+	background-color:#123456;
+	padding-top:2%;
+}
+	.stopka p {
+		text-align:center;
+	}
+	.stopka img {
+		width:64px;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+		border-radius: 8px;
+	}
+#parallax1 {
+	height:72vh;
+	width:100%;
+	background-image:url("grafika/anime.png");
+	background-size:cover;
+	display:table;
+	background-attachment:fixed;
+}
+#parallax2 {
+	height:72vh;
+	width:100%;
+	background-image:url("grafika/gra1.png");
+	background-size:cover;
+	display:table;
+	background-attachment:fixed;
+}
+#parallax3 {
+	height:72vh;
+	width:100%;
+	background-image:url("grafika/gra2.png");
+	background-size:cover;
+	display:table;
+	background-attachment:fixed;
+}
+#parallax4 {
+	height:72vh;
+	width:100%;
+	background-image:url("grafika/gra3.png");
+	background-size:cover;
+	display:table;
+	background-attachment:fixed;
+}
